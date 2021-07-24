@@ -1,5 +1,5 @@
 [package]
-name = {{project-name}}
+name = "{{project-name}}"
 version = "0.1.0"
 edition = "2018"
 authors = ["{{authors}}"]
@@ -9,7 +9,7 @@ repository = "https://github.com/"
 homepage = "https://github.com/"
 license = "MIT OR Apache-2.0"
 keywords = ["Some", "key", "words"]
-categories = ["api-bindings"]
+categories = ["Some", "Categories"]
 
 [dependencies]
 

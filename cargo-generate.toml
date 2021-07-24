@@ -1,0 +1,3 @@
+[placeholders.gituser]
+type = "string"
+prompt = "What is your github username ?"
