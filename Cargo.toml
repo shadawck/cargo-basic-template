@@ -1,0 +1,19 @@
+[package]
+name = {{project-name}}
+version = "0.1.0"
+edition = "2018"
+authors = ["{{authors}}"]
+description = "A brief description"
+readme = "README.md"
+repository = "https://github.com/"
+homepage = "https://github.com/"
+license = "MIT OR Apache-2.0"
+keywords = ["Some", "key", "words"]
+categories = ["api-bindings"]
+
+[dependencies]
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
