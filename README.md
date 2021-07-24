@@ -17,11 +17,9 @@ cargo install {{project-name}}
 
 or from source :
 ```sh
-cargo install --git https://github.com/Username/crate-name
+cargo install --git https://github.com/{{gituser}}/{{project-name}}
 ```
 {% endif %}
-
-
 ## Example
 
 First, add the dependency to your `cargo.toml`:
